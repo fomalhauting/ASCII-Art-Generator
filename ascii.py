@@ -17,21 +17,30 @@ def get_data(mode):
 
 
 # Making Background Black or White
-
+bg = "black"
+if bg == "black":
+    bg_code = 0
+elif bg = "white":
+    bg_code = 255
 
 # Getting the character List, Font and Scaling characters for square Pixels
 
 # Reading Input Image
+image = cv2.imread("./data/input1.jpg")
 
 # Converting Color Image to Grayscale
+image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
 # Extracting height and width from Image
+
 
 # Defining height and width of each cell==pixel
 
 # Calculating Height and Width of the output Image
 
 # Making a new Image using PIL
+out_image = Image.new("L", (out_width, out_height), bg_code)
+draw = ImageDraw.Draw(out_image)
 
 # Mapping the Characters
     # lst = [i for i in range(5)] => We can make strings/lists/tuples in this way => lst = [0, 1, 2, 3, 4]
