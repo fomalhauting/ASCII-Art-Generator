@@ -17,9 +17,7 @@ These requirements can be easily installed by:
 ## Scripts and Files
 
 - __ascii.py__: This is the script which converts an image into ascii characters. By default, the script converts images into colored ascii characters but with some small changes, it can be modified to output B&W ascii characters as well.
-- __fonts:
 - __DejaVuSansMono.ttf__: True Type Font file
-- __data:
 - __input1, input2__: Input images
 - __output1, output2__: Output asciified colored images with black background
 
