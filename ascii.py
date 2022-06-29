@@ -8,13 +8,11 @@ Character = {
     "complex": "$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/\|()1{}[]?-_+~<>i!lI;:,\"^`'. "
 }
 
-
 def get_data(mode):
     font = ImageFont.truetype("fonts/DejaVuSansMono-Bold.ttf", size=20)
     scale = 2
     char_list = Character[mode]
     return char_list, font, scale
-
 
 # Making Background Black or White
 bg = "white"
